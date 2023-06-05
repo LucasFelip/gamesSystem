@@ -22,6 +22,12 @@ public class Jogo {
     private Map<String, Double> plataformas; // Mapeia a plataforma para o preço de locação diário
     private int estoque;
 
+    public Jogo(String titulo, Map<String, Double> plataformas, int estoque) {
+        this.titulo = titulo;
+        this.plataformas = plataformas;
+        this.estoque = estoque;
+    }
+
     public void cadastrarJogo() {
         // Lógica para cadastrar o jogo
     }
