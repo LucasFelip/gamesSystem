@@ -21,4 +21,8 @@ public class Jogo {
     private String titulo;
     private Map<String, Double> plataformas;
     private int estoque;
+
+    public void atualizarEstoque(int i) {
+        this.estoque -= i;
+    }
 }
