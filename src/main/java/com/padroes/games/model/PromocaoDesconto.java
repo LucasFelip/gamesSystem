@@ -20,12 +20,4 @@ public class PromocaoDesconto {
     private String id;
     private Set<Jogo> jogosPromocao;
     private double desconto;
-
-    public void adicionarJogoPromocao(Jogo jogo) {
-        jogosPromocao.add(jogo);
-    }
-
-    public void aplicarDesconto() {
-        // Lógica para aplicar o desconto
-    }
 }

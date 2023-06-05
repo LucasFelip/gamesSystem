@@ -19,19 +19,4 @@ public class Cliente {
     private String email;
     private String telefone;
     private String senha;
-
-    public Cliente(String nome, String email, String telefone, String senha) {
-        this.nome = nome;
-        this.email = email;
-        this.telefone = telefone;
-        this.senha = senha;
-    }
-
-    public void cadastrarCliente() {
-        // Lógica para cadastrar o cliente
-    }
-
-    public void fazerReserva() {
-        // Lógica para fazer a reserva
-    }
 }

@@ -19,24 +19,6 @@ public class Jogo {
     @Id
     private String id;
     private String titulo;
-    private Map<String, Double> plataformas; // Mapeia a plataforma para o preço de locação diário
+    private Map<String, Double> plataformas;
     private int estoque;
-
-    public Jogo(String titulo, Map<String, Double> plataformas, int estoque) {
-        this.titulo = titulo;
-        this.plataformas = plataformas;
-        this.estoque = estoque;
-    }
-
-    public void cadastrarJogo() {
-        // Lógica para cadastrar o jogo
-    }
-
-    public void adicionarPlataforma(String plataforma, double precoLocacao) {
-        plataformas.put(plataforma, precoLocacao);
-    }
-
-    public void atualizarEstoque(int quantidade) {
-        estoque += quantidade;
-    }
 }

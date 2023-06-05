@@ -21,8 +21,4 @@ public class Reserva {
     private Cliente cliente;
     private Jogo jogo;
     private Date dataRetirada;
-
-    public void fazerReserva() {
-        // Lógica para fazer a reserva
-    }
 }

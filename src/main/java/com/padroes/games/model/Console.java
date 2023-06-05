@@ -21,20 +21,4 @@ public class Console {
     private double precoHora;
     private Set<String> acessorios;
     private int estoque;
-
-    public void locarConsole() {
-        // Lógica para locar o console
-    }
-
-    public double calcularPrecoLocacao(int horas) {
-        return precoHora * horas;
-    }
-
-    public void adicionarAcessorio(String acessorio) {
-        acessorios.add(acessorio);
-    }
-
-    public void atualizarEstoque(int quantidade) {
-        estoque += quantidade;
-    }
 }
