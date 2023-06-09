@@ -5,19 +5,23 @@ import com.padroes.games.repository.ConsoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ConsoleService {
     private final ConsoleRepository consoleRepository;
 
-    @Autowired
     public ConsoleService(ConsoleRepository consoleRepository) {
         this.consoleRepository = consoleRepository;
     }
 
-    public void locarConsole(Console console) {
-        consoleRepository.save(console);
+    public Console cadastrarConsole(Console console) {
+        return consoleRepository.save(console);
     }
 
-    // Outros métodos de serviço relacionados a consoles...
+    public List<Console> buscarConsolesDisponiveis(int quantidade) {
+        return consoleRepository.findByEstoqueGreaterThan(quantidade);
+    }
 }
+
 

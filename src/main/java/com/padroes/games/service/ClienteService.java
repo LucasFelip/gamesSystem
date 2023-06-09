@@ -1,27 +1,34 @@
 package com.padroes.games.service;
 
 import com.padroes.games.model.Cliente;
+import com.padroes.games.model.Jogo;
+import com.padroes.games.model.Reserva;
 import com.padroes.games.repository.ClienteRepository;
+import com.padroes.games.repository.JogoRepository;
+import com.padroes.games.repository.LocacaoRepository;
+import com.padroes.games.repository.ReservaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Date;
+import java.util.List;
 
 @Service
 public class ClienteService {
     private final ClienteRepository clienteRepository;
 
-    @Autowired
     public ClienteService(ClienteRepository clienteRepository) {
         this.clienteRepository = clienteRepository;
     }
 
-    public void cadastrarCliente(Cliente cliente) {
-        clienteRepository.save(cliente);
+    public Cliente cadastrarCliente(Cliente cliente) {
+        return clienteRepository.save(cliente);
     }
 
-    public Cliente buscarClientePorId(String id) {
-        return clienteRepository.findById(id).orElse(null);
+    public Cliente buscarClientePorEmail(String email) {
+        return clienteRepository.findByEmail(email);
     }
-
-    // Outros métodos de serviço relacionados a clientes...
 }
+
+
 

@@ -5,23 +5,27 @@ import com.padroes.games.repository.JogoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class JogoService {
     private final JogoRepository jogoRepository;
 
-    @Autowired
     public JogoService(JogoRepository jogoRepository) {
         this.jogoRepository = jogoRepository;
     }
 
-    public void cadastrarJogo(Jogo jogo) {
-        jogoRepository.save(jogo);
+    public Jogo cadastrarJogo(Jogo jogo) {
+        return jogoRepository.save(jogo);
     }
 
-    public Jogo buscarJogoPorId(String id) {
-        return jogoRepository.findById(id).orElse(null);
+    public List<Jogo> buscarJogosPorTitulo(String titulo) {
+        return jogoRepository.findByTituloContainingIgnoreCase(titulo);
     }
 
-    // Outros métodos de serviço relacionados a jogos...
+    public List<Jogo> buscarJogosPorPlataforma(String plataforma) {
+        return jogoRepository.findByPlataformasContainingIgnoreCase(plataforma);
+    }
 }
+
 

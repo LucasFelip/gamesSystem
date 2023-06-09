@@ -10,16 +10,13 @@ import org.springframework.stereotype.Service;
 public class PromocaoDescontoService {
     private final PromocaoDescontoRepository promocaoDescontoRepository;
 
-    @Autowired
     public PromocaoDescontoService(PromocaoDescontoRepository promocaoDescontoRepository) {
         this.promocaoDescontoRepository = promocaoDescontoRepository;
     }
 
-    public void adicionarJogoPromocao(PromocaoDesconto promocaoDesconto, Jogo jogo) {
-        promocaoDesconto.adicionarJogoPromocao(jogo);
-        promocaoDescontoRepository.save(promocaoDesconto);
+    public PromocaoDesconto cadastrarPromocaoDesconto(PromocaoDesconto promocaoDesconto) {
+        return promocaoDescontoRepository.save(promocaoDesconto);
     }
-
-    // Outros métodos de serviço relacionados a promoções e descontos...
 }
+
 

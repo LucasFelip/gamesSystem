@@ -9,6 +9,6 @@ import java.util.List;
 @Repository
 public interface JogoRepository extends MongoRepository<Jogo, String> {
     List<Jogo> findByTituloContainingIgnoreCase(String titulo);
-    List<Jogo> findByPlataformasContainsKey(String plataforma);
+    List<Jogo> findByPlataformasContainingIgnoreCase(String plataforma);
 }
 
