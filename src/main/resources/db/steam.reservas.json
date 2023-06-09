@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6483b4e51ab1cb04abbb7360"
+  },
+  "cliente": {
+    "nome": "Pedro Oliveira",
+    "email": "pedro.oliveira@example.com",
+    "telefone": "(11) 5555-5555",
+    "senha": "senha789"
+  },
+  "jogo": {
+    "titulo": "The Last of Us Part II",
+    "plataformas": {
+      "PlayStation 4": 12.99,
+      "PlayStation 5": 14.99
+    },
+    "estoque": 5
+  },
+  "dataRetirada": "2023-06-05T10:00:00Z"
+}]

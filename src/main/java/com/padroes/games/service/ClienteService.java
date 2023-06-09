@@ -25,6 +25,10 @@ public class ClienteService {
         return clienteRepository.save(cliente);
     }
 
+    public List<Cliente> buscarTodosCliente() {
+        return clienteRepository.findAll();
+    }
+
     public Cliente buscarClientePorEmail(String email) {
         return clienteRepository.findByEmail(email);
     }

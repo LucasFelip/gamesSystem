@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "6483b5041ab1cb04abbb7363"
+  },
+  "jogosPromocao": [
+    {
+      "titulo": "Cyberpunk 2077",
+      "plataformas": {
+        "Xbox One": 9.99,
+        "PlayStation 4": 9.99,
+        "PC": 8.99
+      },
+      "estoque": 15
+    },
+    {
+      "titulo": "Assassin's Creed Valhalla",
+      "plataformas": {
+        "Xbox Series X": 12.99,
+        "PlayStation 5": 12.99,
+        "PC": 11.99
+      },
+      "estoque": 10
+    }
+  ],
+  "desconto": 0.2
+}]

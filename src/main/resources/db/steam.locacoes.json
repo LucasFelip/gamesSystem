@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6483b4af1ab1cb04abbb735a"
+  },
+  "cliente": {
+    "nome": "Maria Santos",
+    "email": "maria.santos@example.com",
+    "telefone": "(11) 9876-5432",
+    "senha": "senha456"
+  },
+  "jogos": {
+    "FIFA 22": 1,
+    "Resident Evil 8": 2
+  },
+  "dataLocacao": "2023-05-28T14:30:00Z"
+}]

@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6483b4d71ab1cb04abbb735d"
+  },
+  "precoHora": 5,
+  "acessorios": [
+    "headphone",
+    "controle",
+    "Kinect"
+  ],
+  "estoque": 10
+}]

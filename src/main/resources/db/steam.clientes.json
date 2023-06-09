@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6483a9a01d56cb5db8e7f060"
+  },
+  "nome": "Lucas",
+  "email": "lucas@gmail.com",
+  "telefone": "98988525278",
+  "senha": "123",
+  "_class": "com.padroes.games.model.Cliente"
+},
+{
+  "_id": {
+    "$oid": "6483b4481ab1cb04abbb734f"
+  },
+  "nome": "João Silva",
+  "email": "joao.silva@example.com",
+  "telefone": "(11) 1234-5678",
+  "senha": "senha123"
+}]

@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6483b4971ab1cb04abbb7357"
+  },
+  "titulo": "FIFA 22",
+  "plataformas": {
+    "Xbox One": 10.99,
+    "PlayStation 4": 10.99,
+    "PC": 9.99
+  },
+  "estoque": 20
+}]
