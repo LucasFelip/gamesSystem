@@ -42,6 +42,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Spring Framework
 - MongoDB
 
+## Licença
+
+Este projeto está licenciado sob a <a href="https://opensource.org/licenses/MIT" target="_new">MIT License</a>. Sinta-se à vontade para utilizar, modificar e distribuir o código de acordo com os termos da licença.
+
 ## Alunos
 [<img align="left" height="84px" width="84px" alt="@LucasFelip" src="https://avatars.githubusercontent.com/LucasFelip?size=64">](https://github.com/LucasFelip)
 **Lucas Ferreira** \
@@ -61,3 +65,12 @@ Linguagens & Tecnologias: `Java`, `IntelliJ`
 **David Gomes** \
 [**IFMA**](https://portal.ifma.edu.br/inicio/) • Portugal \
 Linguagens & Tecnologias: `Java`, `IntelliJ`
+
+<br>
+
+## Contato
+Caso tenha alguma dúvida, sugestão ou queira contribuir de alguma forma, entre em contato conosco por alguns dos emails: <br>
+tadeucosta@acad.ifma.edu.br <br>
+david.gomes@acad.ifma.edu.br
+
+Agradecemos pelo interesse e esperamos que este projeto seja útil para compreender e aplicar os padrões de projeto em suas próprias implementações de software.
